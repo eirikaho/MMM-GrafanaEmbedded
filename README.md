@@ -4,7 +4,7 @@ Embed panels from grafana (requires grafana v6 or higher)
 
 ## Example
 
-![](others/MMM-SystemStatus.png)
+![](grafana-embedded-example.png)
 
 ## Installatoion
 1. `cd ~/MagicMirror/modules`
@@ -33,6 +33,6 @@ Embed panels from grafana (requires grafana v6 or higher)
 		},
     ```
 url composition example
-http://<host>:<port>/d/<id>/>dashboardName>?orgId=<orgId>&refresh=<refreshRate>&from=<from>&to=<to>&panelId=<panelId>
+`http://<host>:<port>/d/<id>/>dashboardName>?orgId=<orgId>&refresh=<refreshRate>&from=<from>&to=<to>&panelId=<panelId>`
 
 for time range syntax (from, to) see [grafana time range controls](https://grafana.com/docs/grafana/latest/dashboards/time-range-controls/)
