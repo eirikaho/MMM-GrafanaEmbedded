@@ -6,11 +6,9 @@ Embed panels from grafana (requires grafana v6 or higher)
 
 ![](grafana-embedded-example.png)
 
-## Installatoion
+## Innstall
 1. `cd ~/MagicMirror/modules`
 1. `git clone https://github.com/eirikaho/MMM-SystemStatus.git`
-1. `cd MMM-SystemStatus`
-1. `npm install`
 1. Configure `~/MagicMirror/config/config.js`:
 
     ```
