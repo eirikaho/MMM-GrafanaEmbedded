@@ -23,6 +23,7 @@ Module.register("MMM-GrafanaEmbedded", {
         // todo: README time range controls https://grafana.com/docs/grafana/latest/dashboards/time-range-controls
         iframe.width = width;
         iframe.height = height;
+        iframe.style = "border:0"
         iframe.frameborder = "0"
         iframe.src =  `http://${host}:${port}/d-solo/${id}/${dashboardName}?kiosk=&orgId=${orgId}&refresh=${refreshRate}&from=${from}&to=${to}&panelId=${panelId}`;
         return iframe;
